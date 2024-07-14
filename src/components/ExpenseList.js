@@ -1,13 +1,21 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import ExpenseItem from './ExpenseItem';
+import './ExpenseList.css';
 
 export class ExpenseList extends Component {
   render() {
     return (
-      <div>
-        
-      </div>
+      <>
+        <ul className='list'>
+          {/* ExpenseItem */}
+          <ExpenseItem />
+        </ul>
+        <button className='btn'>
+          목록 지우기
+        </button>
+      </>
     )
   }
 }
 
-export default ExpenseList
+export default ExpenseList;

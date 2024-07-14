@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import "./ExpenseForm.css"
+import React, { Component } from 'react';
+import "./ExpenseForm.css";
 
 export class ExpenseForm extends Component {
   render() {
@@ -23,4 +23,4 @@ export class ExpenseForm extends Component {
   }
 }
 
-export default ExpenseForm
+export default ExpenseForm;
